@@ -19,7 +19,6 @@ class AuthToken
      */
     public function handle($request, Closure $next)
     {
-
         $Autorization = $request->header('Autorization');
      
         $result = Clientes::select("*")
