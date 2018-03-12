@@ -1,0 +1,31 @@
+Crear PROYECTO NUEVO
+
+composer create-project laravel/laravel validadUser XXXXXXXXXXX
+
+Levantar DEMONIO
+
+php artisan serve
+
+Diseñas la Rutas en ROUTES api.php
+
+Comando para CREAR MODELO
+
+php artisan make:model XXXXXXXXXX
+
+Comando para CREAR CONTROLADOR
+
+php artisan make:controller XXXXXXXXXXXX
+
+Comado para CREAR CAPA DE SEGURIDAD
+
+php artisan make:middleware XXXXXXXXXXXX
+
+Autorizas el USO de TOKEN
+
+Tu Proyecto buscas App\Http\Kernel Class.. 
+
+ 'AuthToken' => \App\Http\Middleware\AuthToken::class
+
+
+
+
